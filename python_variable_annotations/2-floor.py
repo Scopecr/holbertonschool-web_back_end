@@ -1,4 +1,4 @@
-#!/usr.bin/env python3
+#!/usr/bin/env python3
 """
 function floor takes a float n as argument
 returns float of floor
