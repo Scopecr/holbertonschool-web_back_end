@@ -5,6 +5,6 @@ returns float of floor
 """
 
 
-def floor (n: float) -> int:
+def floor(n: float) -> int:
     """floor function"""
-    return int (n)
+    return int(n)
