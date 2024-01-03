@@ -1,4 +1,9 @@
 #usr/bin/env python3
-def add(a, b) -> float:
+"""
+add two float numbers with a type anotation add
+"""
+type = sum
+
+def add(a: float,b: float) -> float:
     """Add two numbers"""
     return a + b
