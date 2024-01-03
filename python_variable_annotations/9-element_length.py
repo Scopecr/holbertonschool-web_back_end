@@ -12,5 +12,5 @@ from typing import Tuple
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
-    """returns list of tuples, one for each element of lst, of the form (i, len(i))"""
+    """returns list of tuples, one for each element"""
     return [(i, len(i)) for i in lst]
