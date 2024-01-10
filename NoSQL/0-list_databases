@@ -3,8 +3,8 @@
 
 
 from pymongo import MongoClient
-db.adminCommand(
-    {
-        listDatabases: 1
-    }
-)
+client = MogoClient("mongodb://localhost")
+db = client["mydb"]
+
+
+print(db.list_collection_names())
