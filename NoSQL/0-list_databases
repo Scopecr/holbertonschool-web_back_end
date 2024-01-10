@@ -2,7 +2,8 @@
 //Command that list the DB on MongoDB
 
 
-db.adminComman(
+db.adminCommand(
     {
         listDatabases: 1
-    })
+    }
+)
