@@ -1,6 +1,3 @@
 #!/usr/bin/env python3
 //Command that list the DB on MongoDB
-
-import pymongo
-
-db.adminCommand({listDatabases:1})
+show dbs
