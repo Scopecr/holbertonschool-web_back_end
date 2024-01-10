@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+//Command that list the DB on MongoDB
+
+
+db.adminComman(
+    {
+        listDatabases: 1
+    })
