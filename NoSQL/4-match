@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
-//script that list all documents with name="Holberton school" in the collection school
+//script that list all data in school
 db.school.find({name: "Holberton school"})
