@@ -1,2 +1,2 @@
 //script that deletes all the documents in the database
-db.schools.deleteMany({name: "Holberton school"})
+db.schools.deleteMany({name: 'Holberton school'})
