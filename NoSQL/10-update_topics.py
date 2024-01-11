@@ -1,4 +1,4 @@
-#!/usr/binenv python3
+#!/usr/bin/env python3
 """Python code that changes topics of a school document"""
 import pymongo
 
