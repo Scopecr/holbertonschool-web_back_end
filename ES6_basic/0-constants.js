@@ -8,8 +8,8 @@ export function getLast() {
 }
 
 export function teaskNext() {
-    let combination  = 'Buet sometimes let';
-    combination = getLast();
+    let combination  = 'But sometimes let';
+    combination += getLast();
 
     return combination;
 }
