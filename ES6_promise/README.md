@@ -1,7 +1,7 @@
 
 # One Simply does not use async/await without knowing promises
 
-![promisememe](/Users/waltercarrion/Desktop/github/holbertonschool-web_back_end-1/ES6_promise/readme meme.jpeg)
+![promisememe](/ES6_promise/readme meme.jpeg)
 
 
 ## Learning  Objectives
