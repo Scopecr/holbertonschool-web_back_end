@@ -1,6 +1,6 @@
-### One Simply does not use async/await without knowing promises
+# One Simply does not use async/await without knowing promises
 
-# Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 Promises (how, why, and what)
 How to use the then, resolve, catch methods
@@ -9,7 +9,7 @@ Throw / Try
 The await operator
 How to use an async function
 
-# Requirements
+## Requirements
 All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
