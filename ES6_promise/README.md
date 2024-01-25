@@ -1,9 +1,6 @@
 
 # One Simply does not use async/await without knowing promises
 
-![promisememe](/ES6_promise/readme meme.jpeg)
-
-
 ## Learning  Objectives
 - At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 - Promises (how, why, and what)
