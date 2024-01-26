@@ -1,10 +1,19 @@
 import signUpUser from './4-user-promise';
 import uploadPhoto from './5-photo-reject';
 
-export default function handleProfileSignup(firstName, lastName, fileName) {
-  return Promise.allSettled([signUpUser(firstName, lastName), uploadPhoto(fileName)])
-    .then((results) => results.map((result) => ({
+export default async function handleProfileSignup(firstName, lastName, fileName) {
+  try {
+    const results = await Promise.allSettled([signUpUser(firstName, lastName),
+      uploadPhoto(fileName)]);
+    return results.map((result) => ({
       status: result.status,
-      value: result.status === 'fulfilled' ? result.value : `Error: ${result.reason.message}`,
-    })));
+      // Check if the promise was fulfilled or rejected and format the value accordingly
+      value: result.status === 'fulfilled'
+        ? result.value
+        : `Error: ${result.reason.message}`, // Prepend "Error: " to the error message
+    }));
+  } catch (error) {
+    console.error('An error occurred:', error);
+    throw error; // Re-throw the error if you want calling code to handle it
+  }
 }
