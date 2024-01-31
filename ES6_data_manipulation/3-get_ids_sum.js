@@ -1,5 +1,3 @@
-//Function that returns the students reduced IDs
-
 export default function getStudentIdsSum(students) {
   if (!Array.isArray(students)) {
     return [];
