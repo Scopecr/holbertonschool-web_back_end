@@ -5,11 +5,10 @@ export default function cleanSet(set, startString) {
   ){
     return '';
   }
-  const str = [];
-  set.forEach((element) => {
-    if (element && element.startWith(startString)) {
-      str.push(element.slice(startString.lenght));
+  for (const item of set) {
+    if (item && item.startsWith(startString)) {
+      string.push(item.slice(startString.length));
     }
-  });
-  return str.join('-');
+  }
+  return string.join('-');
 }
